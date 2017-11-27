@@ -1,0 +1,63 @@
+body {
+    background-size: cover;
+    background: url("background.jpeg") fixed center center;
+    font-family: cursive;
+    font-size: 2.3rem;
+}
+
+p {
+    text-align: center;
+    margin: 20rem auto;
+    font-size: 4rem;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    left: 20%;
+
+}
+
+.quote {
+    line-height: 2;
+    border: 5px solid #333;
+    border-radius: 1rem;
+}
+
+.quote:nth-child(1) {
+    position: fixed;
+    z-index: -1;
+    background-color: #333;
+    padding: 20px;
+    opacity: 0.2;
+    border: 5px solid purple;
+    border-radius: 1rem;
+}
+
+.text {
+    color: white;
+    opacity: 1;
+}
+
+.quote:nth-child(2) {
+    position: absolute;
+    background-color: purple;
+    opacity: 0.6;
+    margin: 190px 0 190px -10px;;
+    padding: 30px
+}
+
+.hide {
+    color: transparent;
+}
+
+.full-quote {
+    min-height: 200vh;
+}
+
